@@ -55,13 +55,13 @@ using there initial position as a set of coordinates */
 /*this functioncounts the number of nodes in the node array but
 incrementing count by 1 when a position isn't empty */
 
-    int count=0;
+        int count=0;
         for (int i = 0; i < n; i++) {
             if (Nodes[i] != null) {
                 count++;
             }
         }
-    return count;
+        return count;
     }
     public String nodeList() {
 
@@ -75,7 +75,7 @@ of the string (concatenation)*/
                 list=list+" "+Nodes[i];
             }
         }
-    return list;
+        return list;
     }
     public String nodeExists(String node){
 
@@ -88,8 +88,8 @@ concatenates it onto the connected string and returns these names to the user*/
 exists function as there is no direction specified at this time, if there were then
 i would need a separate inputs function*/
 
-     int coord=0;
-     String connected="The current nodes connected to "+node+" are: ";
+        int coord=0;
+        String connected="The current nodes connected to "+node+" are: ";
         for(int i=0;i<n;i++){
             if(Nodes[i]==node){
                 coord=i;
@@ -100,7 +100,7 @@ i would need a separate inputs function*/
                 connected=connected+" "+Nodes[j];
             }
         }
-   return connected;
+        return connected;
     }
     public int weight(String n1,String n2){
 
@@ -117,7 +117,7 @@ to find there assosiated weight*/
                 n2_coords=i;
             }
         }
-    return WeightMatrix[n1_coords][n2_coords];
+        return WeightMatrix[n1_coords][n2_coords];
     }
     int coord=0;
     public void nodeDelete(String node){
