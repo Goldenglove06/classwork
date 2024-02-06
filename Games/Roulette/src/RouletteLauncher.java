@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class RouletteLauncher {
-Roulette r= new Roulette();
-    Scanner s= new Scanner(System.in);
-    public void main(String[] args) {
+    public static void main(String[] args) {
+        Roulette r= new Roulette();
+        Scanner s= new Scanner(System.in);
         System.out.println("How many people are playing?");
         int players=s.nextInt();
         r.Roulette(players);
