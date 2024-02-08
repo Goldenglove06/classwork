@@ -27,9 +27,7 @@ public class Home extends ApplicationAdapter {
 		public void render() {
 
 			if (Gdx.input.isKeyPressed(Input.Keys.ENTER)) {
-				//	System.out.println(Gdx.input.getX());
-				System.out.println(sp.getW());
-				System.out.println(sp.getH());
+				System.out.println(Gdx.graphics.getWidth());
 			}
 			//	Gdx.input.isKeyPressed(Input.Keys.S);
 			ScreenUtils.clear(0, 0, 0, 1);
