@@ -52,7 +52,7 @@ using there initial position as a set of coordinates */
 
     public int nodeCount() {
 
-/*this functioncounts the number of nodes in the node array but
+/*this function counts the number of nodes in the node array but
 incrementing count by 1 when a position isn't empty */
 
         int count=0;
